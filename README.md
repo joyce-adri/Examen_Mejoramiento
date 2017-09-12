@@ -2,9 +2,9 @@
 Repositorio para el examen de mejoramiento de Ing. de software II
 
 # Temas:
-# - Caja negra 
-# - Caja blanca: grafos y plan de pruebas
-# - Utilizar Travis y Coveralls para evidenciar la ejecución y cobertura de cada uno de los casos de prueba
+ - Caja negra 
+ - Caja blanca: grafos y plan de pruebas
+ - Utilizar Travis y Coveralls para evidenciar la ejecución y cobertura de cada uno de los casos de prueba
 
 Instrucciones 
 
