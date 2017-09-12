@@ -6,7 +6,7 @@ Repositorio para el examen de mejoramiento de Ing. de software II
  - Caja blanca: grafos y plan de pruebas
  - Utilizar Travis y Coveralls para evidenciar la ejecución y cobertura de cada uno de los casos de prueba
 
-Instrucciones 
+# Instrucciones 
 
 1) Crear una rama con su nombre completo ejemplo:
 >> comando de git : nombre_apellido1_apellido2
