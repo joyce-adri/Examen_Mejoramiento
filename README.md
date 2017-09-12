@@ -12,9 +12,9 @@ Instrucciones
 >> comando de git : nombre_apellido1_apellido2
 
 2) Revisar los archivos donde deberá colocar el codigo fuente:
->> funcionalidad.py: aquí deberá colocar el código de la funcionalidad aprobarPrestamo
->> test.py: aquí deberá colocar el código para los casos de prueba
+  - funcionalidad.py: aquí deberá colocar el código de la funcionalidad aprobarPrestamo
+  - test.py: aquí deberá colocar el código para los casos de prueba
 
 3) Ejecutar las pruebas localmente:
->> Anotar los porcentajes en la hoja del examen
->> Si las pruebas son exitosas subirlas en su rama
+  - Anotar los porcentajes en la hoja del examen
+  - Si las pruebas son exitosas subirlas en su rama
