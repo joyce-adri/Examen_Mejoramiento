@@ -12,7 +12,7 @@ Repositorio para el examen de mejoramiento de Ing. de software II
 >> comando de git : nombre_apellido1_apellido2
 
 2) Revisar los archivos donde deberá colocar el codigo fuente:
-  - funcionalidad.py: aquí deberá colocar el código de la funcionalidad aprobarPrestamo
+  - funcionalidad.py: aquí deberá colocar el código de la funcionalidad solicitada
   - test.py: aquí deberá colocar el código para los casos de prueba
 
 3) Ejecutar las pruebas localmente:
