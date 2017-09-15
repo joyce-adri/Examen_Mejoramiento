@@ -16,7 +16,7 @@ class Test(unittest.TestCase):
         anios_viv = 1
         prestamo = funcionalidad.aprobar_prestamo(anios_trab, cap_end, anios_viv, 'soltero', 1)
         self.assertEqual(prestamo, 'D')
-    '''
+
     def test_prueba_2(self):
         anios_trab = 1
         cap_end = 0.40
@@ -24,6 +24,7 @@ class Test(unittest.TestCase):
         prestamo = funcionalidad.aprobar_prestamo(anios_trab, cap_end, anios_viv, 'soltero', 1)
         self.assertEqual(prestamo, 'A')
 
+    '''
     def test_prueba_3(self):
         anios_trab = 1
         cap_end = 0.80
