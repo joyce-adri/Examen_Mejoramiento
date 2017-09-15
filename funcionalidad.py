@@ -5,18 +5,18 @@ def aprobarPrestamo(at,estadoCivil, dependientes,capacidadEndeudamiento, aniosVi
 
     if at >= 2 :
         if estadoCivil == "casado" :
-            return "A Aprobado"
+            return "A"
         elif estadoCivil == "soltero" :
-            return "D Denegado"
+            return "D"
         elif estadoCivil == "divorciado" :
             if dependientes > 0 :
-                return "A Aprobado"
+                return "A"
             else :
-                return "M Revision Manual"
+                return "M"
     elif capacidadEndeudamiento >= 75 :
-        return "M Revision Manual"
+        return "M"
     elif aniosVivienda >= 1.5 :
-        return "A Aprobado"
+        return "A"
     else:
-        return "D Denegado"
-    
+        return "D"
+
