@@ -25,5 +25,9 @@ class Test(unittest.TestCase):
     def test_prueba_4(self):
         msg = funcionalidad.aprobarPrestamo(3, 'Married', 0, 0, 0)
         self.assertEquals(msg, "Calificacion: A")
+
+    def test_prueba_5(self):
+        msg = funcionalidad.aprobarPrestamo(1, 'single', 80, 0, 0)
+        self.assertEquals(msg, "Calificacion: M")
 if __name__ == '__main__':
     unittest.main()
