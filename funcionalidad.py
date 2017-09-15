@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
+def AprobarPrestamo(dep, ec, ce, ava, at, edad):
     if(edad>=18):
         if(at>=2):
             if(ec == "divorciado"):
