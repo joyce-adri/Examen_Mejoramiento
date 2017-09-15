@@ -18,3 +18,5 @@ Repositorio para el examen de mejoramiento de Ing. de software II
 3) Ejecutar las pruebas localmente:
   - Anotar los porcentajes en la hoja del examen
   - Si las pruebas son exitosas subirlas en su rama
+
+  [![Coverage Status](https://coveralls.io/repos/github/joyce-adri/Examen_Mejoramiento/badge.svg?branch=master)](https://coveralls.io/github/joyce-adri/Examen_Mejoramiento?branch=master)
