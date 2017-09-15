@@ -1,17 +1,11 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-
 import unittest
-import funcionalidad
-
-
+from funcionalidad import *
 class Test(unittest.TestCase):
-    
-# >>>>>> Estructura para la codificacion de los casos de prueba <<<<<<
-# Reemplazar EL ID por el numero correspondiente del caso de prueba
-    
-    def test_prueba_ID(self):
-        self.assertEquals()
-            
+	def test_prueba_1(self):
+		msg=AprobarPrestamo(0,"Single",0,0,4)
+		self.assertEquals(msg,"Denegado")
+	
 if __name__ == '__main__':
     unittest.main()
