@@ -55,14 +55,14 @@ class Test(unittest.TestCase):
         prestamo = funcionalidad.aprobar_prestamo(años_trab, 0.5, 1, estado_civil, dep)
         self.assertEquals(prestamo, 'M')
 
-    '''
+
     def test_prueba_7(self):
         años_trab = 3
         estado_civil = 'divorciado'
         dep = 2
         prestamo = funcionalidad.aprobar_prestamo(años_trab, 0.5, 1, estado_civil, dep)
         self.assertEquals(prestamo, 'A')
-    '''
+    
 
 if __name__ == '__main__':
     unittest.main()
