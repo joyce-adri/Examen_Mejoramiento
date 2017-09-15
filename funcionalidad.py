@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
+#Divorceado=1 , Soltero =2, casado=3  
+
 
 # Divorceado=1 , Soltero =2, casado=3
 def Aprobar_Prestamo(aniosTrabajo,capacidadEndeudamiento,aniosViviendaActual,estadoCivil,dependientes):
@@ -24,3 +26,4 @@ def Aprobar_Prestamo(aniosTrabajo,capacidadEndeudamiento,aniosViviendaActual,est
             estado = "A"
 
     return "Estado del prestamo: %s" % (estado)
+

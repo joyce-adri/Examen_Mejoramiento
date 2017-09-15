@@ -6,7 +6,6 @@ import funcionalidad
 
 
 class Test(unittest.TestCase):
-
     def test_1(self):
         estado = funcionalidad.Aprobar_Prestamo(1, 70, 1.0, 1, 3)
         esperado = "Estado del prestamo: D"
@@ -42,6 +41,5 @@ class Test(unittest.TestCase):
         esperado = "Estado del prestamo: A"
         self.assertEquals(estado, esperado)
 
-            
 if __name__ == '__main__':
     unittest.main()
