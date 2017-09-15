@@ -22,8 +22,8 @@ class Test(unittest.TestCase):
     def test_prueba_6(self):
         result = funcionalidad.aprobar_prestamo(1,74,1.5,"divorced",0)
         self.assertEqual(result,"aprobado")
-    '''def test_prueba_7(self):
+    def test_prueba_7(self):
         result = funcionalidad.aprobar_prestamo(1,74,1.4,"divorced",0)
-        self.assertEqual(result,"denegado")'''
+        self.assertEqual(result,"denegado")
 if __name__ == '__main__':
     unittest.main()
