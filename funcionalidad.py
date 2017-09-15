@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-def prestamos_hipotecarios(dependencia, anios, civil, capacidad, vivienda, trabajo, edad):
+def prestamos_hipotecarios(dependencia, anios, civil, capacidad, vivienda):
     prestamo = "denegado"
     if anios >= 2:
         if civil is "casado":
@@ -15,7 +15,7 @@ def prestamos_hipotecarios(dependencia, anios, civil, capacidad, vivienda, traba
             elif dependencia > 0:
                 prestamo= "aprobado"
 
-    elif anio <= 2:
+    elif anios <= 2:
         if capacidad >=75:
             prestamo= "manual"
         elif capacidad <75:
