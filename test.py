@@ -30,6 +30,10 @@ class Test(unittest.TestCase):
 		p = funcionalidad.AprobarPrestamo(1, "Divorced", 0.5, 1, 1)
 		self.assertEquals(p, "D")
 
+	def test_prueba_6(self):
+		p = funcionalidad.AprobarPrestamo(1, "Divorced", 0.5, 1.5, 1)
+		self.assertEquals(p, "A")
+
             
 if __name__ == '__main__':
     unittest.main()
