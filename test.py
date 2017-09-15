@@ -44,6 +44,15 @@ class Test(unittest.TestCase):
         resp = funcionalidad.aprobarPrestamo(aniosTrabajo, cEndeudamiento, aniosVivienda, dependientes, estadoC)
         self.assertEquals("A", resp)
 
+    def test_prueba_5(self):
+        aniosTrabajo = 1
+        cEndeudamiento = 75
+        aniosVivienda = 1.5
+        dependientes = 0
+        estadoC = "soltero"
+        resp = funcionalidad.aprobarPrestamo(aniosTrabajo, cEndeudamiento, aniosVivienda, dependientes, estadoC)
+        self.assertEquals("M", resp)
+
 
             
 if __name__ == '__main__':
