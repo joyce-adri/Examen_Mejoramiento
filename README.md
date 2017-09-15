@@ -1,8 +1,7 @@
 # Examen_Mejoramiento
 Repositorio para el examen de mejoramiento de Ing. de software II
 
-[![Coverage Status](https://coveralls.io/github/joyce-adri/Examen_Mejoramiento?branch=madelyne_velasco_mite)](https://coveralls.io/github/joyce-adri/Examen_Mejoramiento?branch=master)
-
+[![Coverage Status](https://coveralls.io/repos/github/joyce-adri/Examen_Mejoramiento/badge.svg?branch=madelyne_velasco_mite)](https://coveralls.io/github/joyce-adri/Examen_Mejoramiento?branch=madelyne_velasco_mite)
 
 # Temas:
  - Caja negra 
