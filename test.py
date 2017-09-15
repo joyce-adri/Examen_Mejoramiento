@@ -4,7 +4,6 @@ from __future__ import unicode_literals
 import unittest
 import funcionalidad
 
-
 class Test(unittest.TestCase):
     
 # >>>>>> Estructura para la codificacion de los casos de prueba <<<<<<
