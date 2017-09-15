@@ -22,6 +22,3 @@ def AprobarPrestamo(aniosTrabajo, capacidadEndeudamiento, aniosVivienda, estadoC
             else:
                 prestamo = "D"
     return prestamo
-
-
-
