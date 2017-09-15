@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 #Divorceado=1 , Soltero =2, casado=3  
 
 
-probar_Prestamo(aniosTrabajo,capacidadEndeudamiento,aniosViviendaActual,estadoCivil,dependientes):
+Aprobar_Prestamo(aniosTrabajo,capacidadEndeudamiento,aniosViviendaActual,estadoCivil,dependientes):
     estado = "D"  #denegado
     if aniosTrabajo<2:
        if capacidadEndeudamiento <75:
