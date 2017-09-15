@@ -6,20 +6,20 @@ def AprobarPrestamo(dep, ec, ce, ava, at, edad):
         if(at>=2):
             if(ec == "divorciado"):
                 if(dep ==0):
-                    return "M"
+                    return "MM"
                 elif(dep >0):
-                    return "A"
+                    return "Aprobado"
             elif(ec == "soltero"):
-                return "D"
+                return "Denegado"
             elif(ec == "casado"):
-                return "A"
+                return "Aprobado"
         else:
             if(ce >= 75):
-                return "M"
+                return "MM"
             else:
                 if(ava >=1.5):
-                    return "A"
+                    return "Aprobado"
                 else:
-                    return "D"
+                    return "Denegado"
     else:
-        return "D"
+        return "Denegado"
