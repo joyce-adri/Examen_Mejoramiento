@@ -36,6 +36,16 @@ class Test(unittest.TestCase):
         result_val = funcionalidad.aprobarPrestamo(0, "divorciado", 20, 3, 5, 30)
         expected_val = "M"
         self.assertEquals(result_val, expected_val)
+
+
+    def test_prueba_5(self):
+
+        #dependientes, estado, capacidaddeuda, tiempovivienda, tiempotrabajo, edad
+        result_val = funcionalidad.aprobarPrestamo(1, "divorciado", 20, 3, 5, 30)
+        expected_val = "A"
+        self.assertEquals(result_val, expected_val)
+
+
             
 if __name__ == '__main__':
     unittest.main()
