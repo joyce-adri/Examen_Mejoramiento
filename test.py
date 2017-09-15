@@ -34,19 +34,30 @@ class Test(unittest.TestCase):
         self.assertEquals(prestamo, 'M')
 
     def test_prueba_4(self):
-
-        self.assertEquals(prestamo, 'D')
+        años_trab = 3
+        estado_civil = 'casado'
+        prestamo = funcionalidad.aprobar_prestamo(años_trab, 0.5, 1, estado_civil, 1)
+        self.assertEquals(prestamo, 'A')
 
     def test_prueba_5(self):
-
+        años_trab = 3
+        estado_civil = 'soltero'
+        prestamo = funcionalidad.aprobar_prestamo(años_trab, 0.5, 1, estado_civil, 1)
         self.assertEquals(prestamo, 'D')
 
     def test_prueba_6(self):
-
-        self.assertEquals(prestamo, 'D')
+        años_trab = 3
+        estado_civil = 'divorciado'
+        dep = 0
+        prestamo = funcionalidad.aprobar_prestamo(años_trab, 0.5, 1, estado_civil, dep)
+        self.assertEquals(prestamo, 'M')
 
     def test_prueba_7(self):
-        self.assertEquals(prestamo, 'D')
+        años_trab = 3
+        estado_civil = 'divorciado'
+        dep = 2
+        prestamo = funcionalidad.aprobar_prestamo(años_trab, 0.5, 1, estado_civil, dep)
+        self.assertEquals(prestamo, 'A')
     '''
 
 if __name__ == '__main__':
