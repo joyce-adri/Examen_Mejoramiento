@@ -23,7 +23,12 @@ class Test(unittest.TestCase):
         expected_val = "D"
         self.assertEquals(result_val, expected_val)
 
+    def test_prueba_3(self):
 
+        #dependientes, estado, capacidaddeuda, tiempovivienda, tiempotrabajo, edad
+        result_val = funcionalidad.aprobarPrestamo(1, "soltero", 20, 3, 1, 22)
+        expected_val = "A"
+        self.assertEquals(result_val, expected_val)
             
 if __name__ == '__main__':
     unittest.main()
