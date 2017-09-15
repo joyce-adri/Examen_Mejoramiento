@@ -1,30 +1,27 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-class Banco():
-    def aprobarPrestamo(self, endeudamiento, estadocivil, aniosvivienda, aniostrabajo, dependientes):
-        if aniostrabajo < 2:
-
-            if endeudamiento < 75:
-
-                if aniosvivienda < 1.5:
-                    return 'D'
-                else:
-                    return 'A'
-
-            else:
-                return 'M'
+def AprobarPrestamo(aniosTrabajo, capacidadEndeudamiento, aniosVivienda, estadoCivil, numDependientes):
+    prestamo = "D"
+    if aniosTrabajo >= 2:
+        if estadoCivil == "divorciado":
+            if numDependientes > 0:
+                prestamo = "A"
+            elif numDependientes == 0:
+                prestamo = "M"
+        elif estadoCivil == "soltero":
+            prestamo = "D"
+        elif estadoCivil == "casado":
+            prestamo = "A"
+    else:
+        if capacidadEndeudamiento >= 75:
+            prestamo = "M"
         else:
-
-            if estadocivil == 'CASADO':
-                return 'A'
-            elif estadocivil == 'SOLTERO':
-                return 'D'
-            elif estadocivil == 'DIVORCIADO':
-
-                if dependientes == 0:
-                    return 'M'
-                else:
-                    return 'A'
+            if aniosVivienda >= 1.5:
+                prestamo = "A"
             else:
-                return 'D'
+                prestamo = "D"
+    return prestamo
+
+
+
