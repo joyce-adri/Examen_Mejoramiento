@@ -7,7 +7,7 @@ import funcionalidad
 
 class Test(unittest.TestCase):
     
-	def test_prueba_1(self):
+    def test_prueba_1(self):
         aniosTrabajo = 3
         cEndeudamiento = 75
         aniosVivienda = 1.5
