@@ -10,10 +10,10 @@ class Test(unittest.TestCase):
     def test_prueba_2(self):
         result = funcionalidad.aprobar_prestamo(3,80,1.5,"married",20)
         self.assertEqual(result,"aprobado")
-    '''def test_prueba_3(self):
+    def test_prueba_3(self):
         result = funcionalidad.aprobar_prestamo(3,80,1.5,"divorced",1)
         self.assertEqual(result,"aprobado")
-    def test_prueba_4(self):
+    '''def test_prueba_4(self):
         result = funcionalidad.aprobar_prestamo(3,80,1.5,"divorced",0)
         self.assertEqual(result,"manual")
     def test_prueba_5(self):
