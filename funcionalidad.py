@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-def aprobar_prestamo(años_de_trabajo, cap_de_end, años_viv_actual, estado_civil, dependientes):
-    if años_de_trabajo >=2 :
+def aprobar_prestamo(anios_de_trabajo, cap_de_end, anios_viv_actual, estado_civil, dependientes):
+    if anios_de_trabajo >=2 :
         if estado_civil == 'soltero' :
             prestamo = 'D'
         elif estado_civil == 'divorciado' :
@@ -16,7 +16,7 @@ def aprobar_prestamo(años_de_trabajo, cap_de_end, años_viv_actual, estado_civi
         if cap_de_end >= 0.75 :
             prestamo = 'M'
         else:
-            if años_viv_actual >= 1.25 :
+            if anios_viv_actual >= 1.25 :
                 prestamo = 'A'
             else:
                 prestamo = 'D'
