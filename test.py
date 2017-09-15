@@ -11,11 +11,19 @@ class Test(unittest.TestCase):
     
     def test_prueba_1(self):
 
-    #dependientes, estado, capacidaddeuda, tiempovivienda, tiempotrabajo, edad
+        #dependientes, estado, capacidaddeuda, tiempovivienda, tiempotrabajo, edad
         result_val = funcionalidad.aprobarPrestamo(1, "soltero", 20, 3, 1, 17)
         expected_val = "D"
-
         self.assertEquals(result_val, expected_val)
+
+    def test_prueba_2(self):
+
+        #dependientes, estado, capacidaddeuda, tiempovivienda, tiempotrabajo, edad
+        result_val = funcionalidad.aprobarPrestamo(1, "soltero", 20, 1, 1, 18)
+        expected_val = "D"
+        self.assertEquals(result_val, expected_val)
+
+
             
 if __name__ == '__main__':
     unittest.main()
