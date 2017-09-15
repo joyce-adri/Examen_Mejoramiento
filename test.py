@@ -6,7 +6,6 @@ import funcionalidad
 
 
 class Test(unittest.TestCase):
-
 # >>>>>> Fernando Sánchez Zambrano <<<<<<
 # >>>>>> Estructura para la codificacion de los casos de prueba <<<<<<
 # Reemplazar EL ID por el numero correspondiente del caso de prueba
