@@ -17,7 +17,7 @@ class Test(unittest.TestCase):
 		capacidadEndeudamiento = 0
 		aniosVivienda = 0
 		resultado = funcionalidad.aprobarPrestamo(aniosTrabajo, estadoCivil, dependientes, capacidadEndeudamiento, aniosVivienda)
-		self.assertEquals(resultado, "D")
+		self.assertEqual(resultado, "D")
 
 	def test_prueba_2(self):
 		aniosTrabajo = 2
@@ -26,7 +26,7 @@ class Test(unittest.TestCase):
 		capacidadEndeudamiento = 0
 		aniosVivienda = 0
 		resultado = funcionalidad.aprobarPrestamo(aniosTrabajo, estadoCivil, dependientes, capacidadEndeudamiento, aniosVivienda)
-		self.assertEquals(resultado, "A")
+		self.assertEqual(resultado, "A")
 
 	def test_prueba_3(self):
 		aniosTrabajo = 2
@@ -35,7 +35,7 @@ class Test(unittest.TestCase):
 		capacidadEndeudamiento = 0
 		aniosVivienda = 0
 		resultado = funcionalidad.aprobarPrestamo(aniosTrabajo, estadoCivil, dependientes, capacidadEndeudamiento, aniosVivienda)
-		self.assertEquals(resultado, "D")
+		self.assertEqual(resultado, "D")
 
 	def test_prueba_4(self):
 		aniosTrabajo = 2
@@ -44,7 +44,7 @@ class Test(unittest.TestCase):
 		capacidadEndeudamiento = 0
 		aniosVivienda = 0
 		resultado = funcionalidad.aprobarPrestamo(aniosTrabajo, estadoCivil, dependientes, capacidadEndeudamiento, aniosVivienda)
-		self.assertEquals(resultado, "A")
+		self.assertEqual(resultado, "A")
 
 	def test_prueba_5(self):
 		aniosTrabajo = 2
@@ -53,7 +53,7 @@ class Test(unittest.TestCase):
 		capacidadEndeudamiento = 0
 		aniosVivienda = 0
 		resultado = funcionalidad.aprobarPrestamo(aniosTrabajo, estadoCivil, dependientes, capacidadEndeudamiento, aniosVivienda)
-		self.assertEquals(resultado, "M")
+		self.assertEqual(resultado, "M")
 
 	def test_prueba_6(self):
 		aniosTrabajo = 2
@@ -62,7 +62,7 @@ class Test(unittest.TestCase):
 		capacidadEndeudamiento = 0
 		aniosVivienda = 0
 		resultado = funcionalidad.aprobarPrestamo(aniosTrabajo, estadoCivil, dependientes, capacidadEndeudamiento, aniosVivienda)
-		self.assertEquals(resultado, "D")
+		self.assertEqual(resultado, "D")
 
 	def test_prueba_7(self):
 		aniosTrabajo = 1
@@ -71,7 +71,7 @@ class Test(unittest.TestCase):
 		capacidadEndeudamiento = 76
 		aniosVivienda = 0
 		resultado = funcionalidad.aprobarPrestamo(aniosTrabajo, estadoCivil, dependientes, capacidadEndeudamiento, aniosVivienda)
-		self.assertEquals(resultado, "M")
+		self.assertEqual(resultado, "M")
 
 	def test_prueba_8(self):
 		aniosTrabajo = 1
@@ -80,7 +80,7 @@ class Test(unittest.TestCase):
 		capacidadEndeudamiento = 74
 		aniosVivienda = 1.5
 		resultado = funcionalidad.aprobarPrestamo(aniosTrabajo, estadoCivil, dependientes, capacidadEndeudamiento, aniosVivienda)
-		self.assertEquals(resultado, "A")
+		self.assertEqual(resultado, "A")
 
 	def test_prueba_9(self):
 		aniosTrabajo = 1
@@ -89,7 +89,7 @@ class Test(unittest.TestCase):
 		capacidadEndeudamiento = 74
 		aniosVivienda = 1
 		resultado = funcionalidad.aprobarPrestamo(aniosTrabajo, estadoCivil, dependientes, capacidadEndeudamiento, aniosVivienda)
-		self.assertEquals(resultado, "D")
+		self.assertEqual(resultado, "D")
 			
 if __name__ == '__main__':
 	unittest.main()
