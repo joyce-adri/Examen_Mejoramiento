@@ -7,11 +7,16 @@ import funcionalidad
 
 class Test(unittest.TestCase):
     
-# >>>>>> Estructura para la codificacion de los casos de prueba <<<<<<
-# Reemplazar EL ID por el numero correspondiente del caso de prueba
-    
-    def test_prueba_ID(self):
-        self.assertEquals()
+	def test_prueba_1(self):
+        aniosTrabajo = 3
+        cEndeudamiento = 75
+        aniosVivienda = 1.5
+        dependientes = 0
+        estadoC = "soltero"
+        resp = funcionalidad.aprobarPrestamo(aniosTrabajo, cEndeudamiento, aniosVivienda, dependientes, estadoC)
+        self.assertEquals("D", resp)
+
+
             
 if __name__ == '__main__':
     unittest.main()

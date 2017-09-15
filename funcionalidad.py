@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 def aprobarPrestamo(aniosTrabajo, capacidadEndeudamiento, aniosVivienda, dependientes, estadoC):
-	solicitud = ""
+	solicitud = "D"
     if aniosTrabajo > 2:
         if estadoC == "soltero":
             solicitud = "D"
