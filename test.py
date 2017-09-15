@@ -12,7 +12,6 @@ from funcionalidad import *
 class Test(unittest.TestCase):
     
 # >>>>>> Estructura para la codificacion de los casos de prueba <<<<<<
-# Reemplazar EL ID por el numero correspondiente del caso de prueba
     
     def test_1(self):
         prestamo= Prestamo(0,"Married",0,0,2,0)
