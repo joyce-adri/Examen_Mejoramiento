@@ -6,12 +6,54 @@ import funcionalidad
 
 
 class Test(unittest.TestCase):
-    
-# >>>>>> Estructura para la codificacion de los casos de prueba <<<<<<
-# Reemplazar EL ID por el numero correspondiente del caso de prueba
-    
-    def test_prueba_ID(self):
-        self.assertEquals()
+ def test1(self):
+
+        estado = funcionalidad.Aprobar_Prestamo(1,70,1.0,1,3)
+        esperado = "Estado del pretsamo : D"
+        self.assertEquals(estado, esperado)
+           
+    def test2(self):
+
+        estado = funcionalidad.Aprobar_Prestamo(1,70,1.0,1,3)
+        esperado = "Estado del pretsamo : D"
+        self.assertEquals(estado, esperado)
+
+    def test3(self):
+
+        estado = funcionalidad.Aprobar_Prestamo(1,70,1.6,1,3)
+        esperado = "Estado del pretsamo : A"
+        self.assertEquals(estado, esperado)
+        
+    def test3(self):
+
+        estado = funcionalidad.Aprobar_Prestamo(3,76,1.0,1,3)
+        esperado = "Estado del pretsamo : M"
+        self.assertEquals(estado, esperado)
+
+    def test4(self):
+
+        estado = funcionalidad.Aprobar_Prestamo(3,70,1.0,1,3)
+        esperado = "Estado del pretsamo : A"
+        self.assertEquals(estado, esperado)
+
+    def test5(self):
+
+        estado = funcionalidad.Aprobar_Prestamo(3,70,1.0,1,0)
+        esperado = "Estado del pretsamo : M"
+        self.assertEquals(estado, esperado)
+
+    def test6(self):
+
+        estado = funcionalidad.Aprobar_Prestamo(1,70,1.0,2,3)
+        esperado = "Estado del pretsamo : D"
+        self.assertEquals(estado, esperado)
+
+    def test7(self):
+
+        estado = funcionalidad.Aprobar_Prestamo(1,70,1.0,3,3)
+        esperado = "Estado del pretsamo : A"
+        self.assertEquals(estado, esperado)
+     
             
 if __name__ == '__main__':
     unittest.main()
