@@ -23,5 +23,4 @@ probar_Prestamo(aniosTrabajo,capacidadEndeudamiento,aniosViviendaActual,estadoCi
               estado="D"
          elif estadoCivil==3: 
               estado="A"
-       
-    return "Estado del prestamo:%s" % (estado)
+     return "Estado del prestamo:%s" % (estado)
